@@ -20,7 +20,7 @@ namespace MethodExercise
         {
             Console.WriteLine("Welcome to the adlib story!");
             //Asking for a noun
-            UserCommand("a plural noun");
+            UserCommand("a noun");
             var noun1 = Console.ReadLine();
             //Asking for a verb
             UserCommand("a verb");
