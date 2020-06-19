@@ -39,8 +39,15 @@ namespace MethodExercise
             Console.WriteLine($"I love to {verb1} with {noun1}");
             Console.WriteLine($"It has such a {adjective1} {noun2}");
             Console.WriteLine($"Signed, {name}");
+            Console.WriteLine();
+            Console.WriteLine($"Now we are going to add and mulitpy");
+            UserCommand("your first number");
+            int num1 = int.Parse(Console.ReadLine());
+            UserCommand("your second number");
+            int num2 = int.Parse(Console.ReadLine());
 
-
+            Console.WriteLine($"{num1} plus {num2} is {Sum(num1, num2)}");
+            Console.WriteLine($"{num1} times {num2} is {Mulitply(num1, num2)}");
         }
     }
 }
